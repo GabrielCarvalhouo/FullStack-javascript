@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Meu primeiro form</title>
+</head>
+<body>
+  <h2>Cadastro da liga dos astronautas</h2>
+  <form>
+    <div>
+    <label for="name">Nome: </label>
+    <input id="name" type="text" placeholder="Digite seu Nome" required><br><br>
+    <label for="q">Email: </label>
+    <input type="email" placeholder="Digite seu e-mail" required>
+    <label for="q"> - Password: </label>
+    <input type="password" placeholder="Crie uma senha" required><br><br>
+  </div>
+  <div>
+    <label for="q">Data de Nascimento: </label>
+    <input type="date">
+    <label for="q"> - Foto: </label>
+    <input type="file">
+  </div>
+<br>
+  <div>
+    <label for="q">Nacionalidade: </label>
+    <select name="select" id="q">
+      <option value="valor1">Russo</option>
+      <option value="valor2">Americano</option>
+      <option value="valor3">Brasileiro</option>
+    </select>
+
+    <label for="q"> - Genero: </label>
+    <label for="q">F</label>
+    <input type="radio" id="Feminino" value="F">
+    <label for="q">M</label>
+    <input type="radio" id="Masculino" value="M">
+  </div><br>
+  
+  <div>
+    <label for="q">Suas Principais qualidades:</label><br>
+
+    <label for="q">Inteligência</label>
+    <input type="checkbox" id="int">
+    <label for="q">| Resiliência</label>
+    <input type="checkbox" id="int">
+    <label for="q">| Preparo Físico</label>
+    <input type="checkbox" id="int">
+    <label for="q">| Educação</label>
+    <input type="checkbox" id="int">
+  </div><br>
+
+    <textarea cols="30" rows="10" placeholder="Porque você gostaria de ser um astronauta?"></textarea>
+    <br><br>
+    <input type="submit" value="Criar">
+  </form>
+</body>
+</html>
