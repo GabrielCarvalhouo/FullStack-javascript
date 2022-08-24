@@ -1,0 +1,40 @@
+.img-content{
+    width: 765px;
+    height: 400px;
+}
+.paragrafo{
+    font-size: 22px;
+    font-family: monospace;
+}
+@media (max-width: 2560px) and (min-width: 1440px){
+    body{
+        background-color: aqua;
+        color: aliceblue;
+    }
+    .text-content{
+        font-size: 30px;
+    }
+    
+}
+@media (max-width: 425px){
+    .img-content{
+        width: 100%;
+        height: auto;
+    }
+    .title-content {
+        text-align: center;
+    }
+    .paragrafo {
+        text-align: center;
+    }
+    .text-content{
+        font-size: 18px;
+        text-align: center;
+    }
+}
+@media (max-width: 310px){
+    .text-content{
+        font-size: 18px;
+        text-align: center;
+    }
+}

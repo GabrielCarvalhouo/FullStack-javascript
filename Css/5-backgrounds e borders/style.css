@@ -1,0 +1,12 @@
+body{
+  background-image: url(https://files.tecnoblog.net/meiobit/wp-content/uploads/2021/04/Dynetics-SpaceX-Blue-Origin-Natl-Team-HLS-landers-NASA-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2{
+  color: blue;
+  border-color: yellow;
+  border-width: 8px;
+  border-style: dashed;
+  background-color: burlywood;
+}

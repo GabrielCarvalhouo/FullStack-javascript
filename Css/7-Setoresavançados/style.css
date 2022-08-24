@@ -1,0 +1,9 @@
+/* 
+Seletore no CSS, servem como identificação para que o HTML possa saber oque será modificado no visual do código
+*/
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+h3{
+  color: #4f4f4f; 
+}

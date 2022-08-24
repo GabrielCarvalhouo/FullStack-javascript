@@ -1,0 +1,31 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+
+}
+.top{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    flex-wrap: wrap;
+}
+.img_icon{
+    width: 15%;
+}
+.img_logo{
+    width: 80%;
+}
+.botao_onebit{
+    padding: 10px;
+    border: 2px rgb(129, 126, 126);
+    border-radius: 7px;
+}
