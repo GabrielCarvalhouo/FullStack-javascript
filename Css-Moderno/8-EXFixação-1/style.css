@@ -4,28 +4,32 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+header{
     display: flex;
-    align-items: flex-start;
-
-}
-.top{
-    width: 100%;
-    min-height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding:10px 25px;
     background-color: black;
-    flex-wrap: wrap;
 }
 .img_icon{
-    width: 15%;
+    width: 40px;
 }
 .img_logo{
-    width: 80%;
+    width: 200px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
 }
 .botao_onebit{
-    padding: 10px;
-    border: 2px rgb(129, 126, 126);
-    border-radius: 7px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.botao_onebit:hover{ 
+    border-color: red;
 }
