@@ -1,2 +1,2 @@
 # FullStack-javascript
-Criado para armazenar informações e atividades do novo curso que estou começando o Full Stack em Javascript da onebitcode
+Criado para armazenar informações e atividades do curso online que estou cursando o Full Stack em Javascript da onebitcode
