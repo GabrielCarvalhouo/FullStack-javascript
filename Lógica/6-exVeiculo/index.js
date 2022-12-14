@@ -8,7 +8,7 @@ if(veiculo1 > veiculo2){
     alert("O "+ veiculo1Nome + " é mais rapido\nSua velocidade foi de: " + veiculo1 + "km/h")
 }
 else if (veiculo2 > veiculo1){
-    alert("O "+ veiculo1Nome + " é mais rapido\nSua velocidade foi de: " + veiculo2 + "km/h")
+    alert("O "+ veiculo2Nome + " é mais rapido\nSua velocidade foi de: " + veiculo2 + "km/h")
 }
 else if (veiculo1 === veiculo2){
     alert("A velocidado dos carros é igual")
